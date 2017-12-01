@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Saiyaff Farouk';
 
+  /** Variable holds the values of routes */
   private navLinks = [
     { path: 'home', label: 'Home' }
   ];

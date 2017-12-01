@@ -8,28 +8,15 @@
   background-attachment: fixed;
 }
 
-// .app-wrapper {
-//     height: 100vh;
-//   position: relative;
-// //   background: rgb(204, 223, 255);
-//   overflow: hidden;
-// }
-// .app-wrapper:before {
-//   content: ' ';
-//   display: block;
-//   position: absolute;
-//   left: 0;
-//   top: 0;
-//   width: 100%;
-//   height: 100%;
-// //   z-index: 1;
-// //   opacity: 1;
-//   background-image: url('./../assets/images/site-collage-less-border-low.jpg');
-//   background-repeat: no-repeat;
-//   background-position: 50% 0;
-//   -ms-background-size: cover;
-//   -o-background-size: cover;
-//   -moz-background-size: cover;
-//   -webkit-background-size: cover;
-//   background-size: cover;
-// }
+.made-with {
+  position: relative;
+  .made-with-text {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    .heart-icon {
+      color: rgb(119, 55, 55);
+    }
+  }
+}
