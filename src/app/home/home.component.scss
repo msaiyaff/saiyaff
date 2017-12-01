@@ -1,0 +1,24 @@
+.home-profile-card {
+  margin-top: 125px;
+  .home-profile {
+    .profile-image {
+      max-width: 200px;
+      display: block;
+      margin: 0 auto;
+    }
+    .profile-bio {
+      margin-top: 25px;
+      padding: 20px 15px 10px 15px;
+      font-size: 28px;
+      background-color: rgba(187, 187, 187, 0.5);
+      border-radius: 10px;
+      .bio-text {
+        display: block;
+        font-weight: bold;
+      }
+      .profile-bio-sub{
+          font-size: 18px;
+      }
+    }
+  }
+}
