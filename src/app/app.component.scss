@@ -20,10 +20,11 @@
     bottom: 0;
     width: 100%;
     text-align: center;
-    /* Breakpoint for  */
+    /* Breakpoint for mobile devices and medium screens */
     @media only screen and (max-width: 900px) {
       position: relative;
     }
+    /* Breakpoint for height of any device */
     @media only screen and (max-height: 900px) {
       position: relative;
     }
