@@ -1,3 +1,5 @@
+/* Wrapping the application */
+
 .app-wrapper {
   min-height: 100vh;
   overflow: hidden;
@@ -8,6 +10,9 @@
   background-attachment: fixed;
 }
 
+
+/* Made with love in the bottom */
+
 .made-with {
   position: relative;
   .made-with-text {
@@ -15,6 +20,13 @@
     bottom: 0;
     width: 100%;
     text-align: center;
+    /* Breakpoint for  */
+    @media only screen and (max-width: 900px) {
+      position: relative;
+    }
+    @media only screen and (max-height: 900px) {
+      position: relative;
+    }
     .heart-icon {
       color: rgb(119, 55, 55);
     }
